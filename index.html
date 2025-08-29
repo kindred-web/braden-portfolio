@@ -1,56 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Braden Kindred - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2" />
 </head>
 <body>
   <div class="container">
 
-    <!-- Header with Photo -->
-    <div class="header">
-      <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-      <div class="header-text">
-        <h1>Braden Kindred</h1>
-        <p><strong>Business Administration & Economics | St. Mary’s College of Maryland</strong></p>
-        <p>Maryland | <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> | 
-           <a href="https://www.linkedin.com/in/kindredbraden">LinkedIn</a></p>
+    <!-- HERO / HEADER -->
+    <header class="hero">
+      <div class="photo-wrap">
+        <!-- Image with fallback to initials if the file isn't found -->
+        <img id="profilePic" src="profile.jpg" alt="Braden Kindred headshot" class="profile-pic"
+             onerror="this.style.display='none';document.getElementById('profileFallback').style.display='flex';" />
+        <div id="profileFallback" class="profile-fallback" aria-label="Profile photo fallback">BK</div>
       </div>
-    </div>
 
-    <!-- About Me -->
-    <div class="section">
+      <div class="hero-text">
+        <h1>Braden Kindred</h1>
+        <p class="subtitle">Business Administration & Economics — St. Mary’s College of Maryland</p>
+        <p class="meta">Maryland · <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> · 
+          <a href="https://www.linkedin.com/in/kindredbraden">LinkedIn</a></p>
+        <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section class="section">
       <h2>About Me</h2>
-      <p>Aspiring business professional with experience in operations, finance, and leadership. 
-         Passionate about data-driven decision making, teamwork, and creating solutions that drive impact.</p>
-    </div>
+      <p>
+        Aspiring business professional with experience in operations, finance, and leadership.
+        I enjoy turning data and feedback into practical improvements, collaborating across teams,
+        and building simple tools and processes that make work smoother.
+      </p>
+    </section>
 
-    <!-- Resume -->
-    <div class="section">
-      <h2>Resume</h2>
-      <p><a href="resume.pdf" target="_blank">Download My Resume (PDF)</a></p>
-    </div>
-
-    <!-- Achievements & Interests -->
-    <div class="section">
+    <!-- ACHIEVEMENTS & INTERESTS (replaces Projects) -->
+    <section class="section">
       <h2>Achievements & Interests</h2>
-      <ul>
-        <li>GPA: 3.8, Double Major in Business Administration & Economics</li>
-        <li>Risk Analyst, Student Investment Group – contributed to 35.97% portfolio return</li>
-        <li>NCAA D3 Student-Athlete (Soccer)</li>
-        <li>Founder of Pickleball Club</li>
-        <li>Interests: Finance, Entrepreneurship, Sports, AI tools</li>
+      <ul class="list">
+        <li>GPA: 3.8 — Double Major in Business Administration & Economics</li>
+        <li>Risk Analyst, Student Investment Group — contributed to a 35.97% portfolio return</li>
+        <li>NCAA D3 Student-Athlete (Soccer); Member, SAAC</li>
+        <li>Founder, Pickleball Club</li>
+        <li>Interests: Finance, Entrepreneurship, Sports, Practical AI Tools</li>
       </ul>
-    </div>
+    </section>
 
-    <!-- Contact -->
-    <div class="section contact">
-      <h2>Contact</h2>
-      <p>📍 Maryland | ✉️ <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> | 
-         <a href="https://www.linkedin.com/in/kindredbraden">LinkedIn</a></p>
-    </div>
+    <!-- LEADERSHIP (kept concise to avoid duplication with Achievements) -->
+    <section class="section">
+      <h2>Leadership & Activities</h2>
+      <ul class="list">
+        <li>Risk Analyst — Student Investment Group</li>
+        <li>Member — Student-Athlete Advisory Committee (SAAC)</li>
+        <li>NCAA D3 Men’s Soccer</li>
+        <li>Founder — Pickleball Club</li>
+      </ul>
+    </section>
+
+    <!-- FOOTER CONTACT -->
+    <footer class="footer">
+      <div class="divider"></div>
+      <p>Maryland · <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> · 
+        <a href="https://www.linkedin.com/in/kindredbraden">linkedin.com/in/kindredbraden</a></p>
+    </footer>
 
   </div>
 </body>
