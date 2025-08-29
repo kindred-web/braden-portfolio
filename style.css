@@ -57,7 +57,7 @@ body{
 }
 
 .profile-fallback{
-  display: none; /* shown only if image fails (set in HTML onerror) */
+  display: none;
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -116,6 +116,8 @@ body{
   display: inline-block;
 }
 
+.section p{ margin-top: 0; }
+
 .list{
   margin: 10px 0 0 0;
   padding-left: 18px;
@@ -123,6 +125,17 @@ body{
 
 .list li{
   margin: 6px 0;
+}
+
+/* ========== FEATURED BOX ========== */
+.featured{
+  background: #F8FAFF;
+  border-left: 4px solid var(--navy);
+  padding: 12px 14px;
+  border-radius: 6px;
+  margin-top: 8px;
+  color: var(--text);
+  font-size: 15px;
 }
 
 /* ========== FOOTER ========== */
