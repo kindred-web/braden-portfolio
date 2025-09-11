@@ -1,87 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Braden Kindred - Portfolio</title>
-  <link rel="stylesheet" href="style.css?v=6" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Braden Kindred Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-
-    <!-- HERO / HEADER -->
-    <header class="hero">
-      <div class="photo-wrap">
-        <!-- Image with fallback to initials if the file isn't found -->
-        <img id="profilePic" src="profile.jpg" alt="Braden Kindred headshot" class="profile-pic"
-             onerror="this.style.display='none';document.getElementById('profileFallback').style.display='flex';" />
-        <div id="profileFallback" class="profile-fallback" aria-label="Profile photo fallback">BK</div>
-      </div>
-
-      <div class="hero-text">
-        <h1>Braden Kindred</h1>
-        <p class="subtitle">Business Administration & Economics — St. Mary’s College of Maryland</p>
-        <p class="meta">
-          Maryland, USA · 240-549-0000 · 
-          <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> · 
-          <a href="https://www.linkedin.com/in/kindredbraden">linkedin.com/in/kindredbraden</a>
-        </p>
-        <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
-      </div>
+    <!-- Profile Section -->
+    <header class="header">
+      <img src="profile.jpg" alt="Braden Kindred" class="profile-pic">
+      <h1>Braden Kindred</h1>
+      <p>Business Administration & Economics — St. Mary’s College of Maryland</p>
+      <p>Maryland · braden@kindreds.com · <a href="https://linkedin.com/in/kindredbraden" target="_blank">LinkedIn</a> · 240-549-0000</p>
+      <a href="Braden_Kindred_Resume.pdf" target="_blank" class="btn">Download Resume (PDF)</a>
     </header>
 
-    <!-- ABOUT -->
-    <section class="section" id="about">
+    <!-- About Me -->
+    <section class="section">
       <h2>About Me</h2>
       <p>
-        I’m a Business Administration &amp; Economics student (GPA 3.8) who enjoys turning analysis into action.
-        This past summer I interned with a sports operations company where I redesigned the reservation check-in process.
-        The change cut errors by 78% and gave me first-hand experience in how small operational improvements can create a major financial impact.
-        I also serve as a Risk Analyst on a $700K student-managed portfolio, where I balance quantitative analysis with practical decision-making.
-      </p>
-      <p>
-        Outside the classroom, I compete in both NCAA Division III and semi-professional soccer and founded my college Pickleball Club.
-        Sports have been a constant in my life, and they’ve taught me as much about commitment and teamwork as any classroom.
-        Next semester, I’ll be studying abroad in Barcelona to broaden both my academic and cultural perspective.
-        I start my mornings with Bloomberg and WSJ market briefings, and in my free time I enjoy following AI creators to see how new tools are shaping business workflows.
+        I’m a junior studying Business Administration and Economics at St. Mary’s College of Maryland. 
+        This past summer I interned with a sports operations company and redesigned their reservation check-in process, cutting errors by 78% — an experience that showed me how small operational changes can create big impact. 
+        Beyond academics, I compete in NCAA Division III soccer and played semi-professionally this past summer. 
+        I also founded my college Pickleball Club and will be studying abroad in Barcelona. 
+        In my free time, I enjoy following markets and exploring how AI tools can streamline work.
       </p>
     </section>
 
-    <!-- LATEST INSIGHT -->
+    <!-- Achievements & Interests -->
     <section class="section">
-      <h2>Latest Insight</h2>
-      <div class="featured">
-        <strong>Market Note (Aug 2025):</strong>
-        I’ve been following how companies are experimenting with AI tools in marketing. Even though the field is early,
-        it’s interesting to see how automation could change entry-level roles like internships, with more focus on strategy and less on repetitive tasks.
-      </div>
-    </section>
-
-    <!-- ACHIEVEMENTS & INTERESTS -->
-    <section class="section" id="achievements">
-      <h2>Achievements &amp; Interests</h2>
-      <ul class="list">
-        <li><strong>GPA 3.8</strong> — Double Major: Business Administration &amp; Economics</li>
-        <li><strong>Operations Internship:</strong> Redesigned check-in system that reduced errors by 78%</li>
-        <li><strong>Risk Analyst:</strong> Student Investment Group, contributed to a 35.97% return on a $700K fund</li>
-        <li><strong>Soccer:</strong> NCAA Division III athlete and semi-professional player (Summer 2024)</li>
-        <li><strong>Founder:</strong> Pickleball Club, built from scratch and organized campus events</li>
-        <li><strong>Study Abroad:</strong> Barcelona, Spring 2026 — academic and cultural growth</li>
-        <li><strong>Daily Habits:</strong> follow Bloomberg &amp; WSJ market briefings; enjoy exploring applied AI in business</li>
-        <li><strong>Interests:</strong> Finance, Entrepreneurship, Sports, Applied AI</li>
+      <h2>Achievements & Interests</h2>
+      <ul>
+        <li>GPA: 3.81 — Double Major in Business Administration & Economics</li>
+        <li>Risk Analyst, Student Investment Group — contributed to a 35.97% annual portfolio return</li>
+        <li>NCAA D3 Student-Athlete (Soccer); Semi-Pro Soccer</li>
+        <li>Founder, Pickleball Club</li>
+        <li>Interests: Finance, Entrepreneurship, Sports, Practical AI Tools</li>
       </ul>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="divider"></div>
-      <p>
-        Maryland, USA · 240-549-0000 · 
-        <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> · 
-        <a href="https://www.linkedin.com/in/kindredbraden">linkedin.com/in/kindredbraden</a>
-      </p>
-    </footer>
+    <!-- Leadership & Activities -->
+    <section class="section">
+      <h2>Leadership & Activities</h2>
+      <ul>
+        <li>Risk Analyst — Student Investment Group</li>
+        <li>Member — Student-Athlete Advisory Committee (SAAC)</li>
+        <li>NCAA D3 Men’s Soccer</li>
+        <li>Founder — Pickleball Club</li>
+      </ul>
+    </section>
 
+    <!-- Footer -->
+    <footer>
+      <p>Maryland · <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> · 
+         <a href="https://linkedin.com/in/kindredbraden" target="_blank">linkedin.com/in/kindredbraden</a></p>
+    </footer>
   </div>
 </body>
 </html>
