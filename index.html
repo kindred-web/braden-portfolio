@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -8,34 +8,24 @@
 </head>
 <body>
 
-  <!-- FULL-WIDTH STICKY NAV -->
+  <!-- STICKY NAV (full width, centered links only) -->
   <nav class="navbar" role="navigation" aria-label="Main navigation">
-    <div class="nav-inner">
-      <div class="nav-left">
-        <a class="brand" href="#top">Braden Kindred</a>
-      </div>
-
-      <div class="nav-center" aria-hidden="false">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#achievements">Achievements</a></li>
-          <li><a href="#leadership">Leadership</a></li>
-        </ul>
-      </div>
-
-      <div class="nav-right">
-        <a class="nav-resume" href="Kindred_Braden_Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
-      </div>
+    <div class="nav-center">
+      <ul class="nav-links" role="menubar" aria-label="Primary">
+        <li role="none"><a role="menuitem" href="#about">About</a></li>
+        <li role="none"><a role="menuitem" href="#achievements">Achievements</a></li>
+        <li role="none"><a role="menuitem" href="#leadership">Leadership</a></li>
+      </ul>
     </div>
   </nav>
 
-  <!-- MAIN CONTENT (centered container) -->
-  <main id="top" class="main">
+  <!-- MAIN CONTENT -->
+  <main class="main">
     <div class="container">
 
-      <!-- Header / Hero (centered) -->
-      <header class="hero">
-        <img src="profile.jpg" alt="Headshot — Braden Kindred" class="profile-pic" />
+      <!-- HERO / HEADER (centered) -->
+      <header class="hero" id="top">
+        <img src="profile.jpg" alt="Braden Kindred headshot" class="profile-pic" />
         <h1 class="name">Braden Kindred</h1>
         <p class="subtitle">Business Administration &amp; Economics — St. Mary’s College of Maryland</p>
 
@@ -48,35 +38,32 @@
         <a class="cta" href="Kindred_Braden_Resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
       </header>
 
-      <!-- About -->
+      <!-- ABOUT -->
       <section id="about" class="section">
         <h2>About Me</h2>
         <p>
           I’m a junior at St. Mary’s College studying Business Administration &amp; Economics (GPA 3.81).
-          This past summer I created and completed a Strategic Operations internship with a sports operations company —
-          I redesigned reservation and check-in flows and reduced missed check-ins by 78%. I also serve as a Risk Analyst
-          on a \$700K student-managed portfolio. Next semester I’ll study abroad in Barcelona.
+          This past summer I created and completed a Strategic Operations internship with a sports operations company where I redesigned reservation and check-in flows and reduced missed check-ins by 78%.
+          I also serve as a Risk Analyst on a $700K student-managed portfolio and will study abroad in Barcelona next semester.
         </p>
         <p>
-          In my free time I follow markets (Bloomberg/WSJ) and enjoy exploring practical AI tools that improve workflows.
-          Outside academics I compete in NCAA Division III soccer and played semi-professionally this past summer;
-          I also founded my college Pickleball Club.
+          I follow Bloomberg and the Wall Street Journal daily and in my free time I occasionally explore AI creators and tools to see how they can make business workflows more efficient.
         </p>
       </section>
 
-      <!-- Achievements -->
+      <!-- ACHIEVEMENTS -->
       <section id="achievements" class="section">
         <h2>Achievements &amp; Interests</h2>
         <ul>
-          <li>GPA: 3.81 — Double Major in Business Administration &amp; Economics</li>
+          <li>GPA 3.81 — Double Major, Business Administration &amp; Economics</li>
           <li>Risk Analyst, Student Investment Group — contributed to a 35.97% portfolio return</li>
-          <li>NCAA D3 Soccer &amp; Semi-Pro Soccer experience</li>
+          <li>NCAA Division III &amp; Semi-Pro Soccer — competitive athletics + teamwork</li>
           <li>Founder — College Pickleball Club</li>
-          <li>Interests: Finance, Entrepreneurship, Sports, Applied AI Tools</li>
+          <li>Interests: Finance, Entrepreneurship, Sports, Practical AI tools</li>
         </ul>
       </section>
 
-      <!-- Leadership -->
+      <!-- LEADERSHIP -->
       <section id="leadership" class="section">
         <h2>Leadership &amp; Activities</h2>
         <ul>
@@ -87,7 +74,7 @@
         </ul>
       </section>
 
-      <!-- Footer -->
+      <!-- FOOTER -->
       <footer class="site-footer">
         <p>
           Maryland · <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> ·
