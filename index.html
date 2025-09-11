@@ -1,81 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Braden Kindred - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Braden Kindred — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="nav-name">Braden Kindred</div>
-      <ul class="nav-links">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#leadership">Leadership</a></li>
-        <li><a href="Kindred_Braden_Resume.pdf" target="_blank">Resume</a></li>
-      </ul>
+
+  <!-- FULL-WIDTH STICKY NAV -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <a class="brand" href="#top">Braden Kindred</a>
+      </div>
+
+      <div class="nav-center" aria-hidden="false">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#leadership">Leadership</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-right">
+        <a class="nav-resume" href="Kindred_Braden_Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+      </div>
     </div>
   </nav>
 
-  <div class="container">
-    <!-- Header Section -->
-    <header class="header">
-      <img src="profile.jpg" alt="Braden Kindred" class="profile-pic">
-      <h1>Braden Kindred</h1>
-      <p>Business Administration & Economics — St. Mary’s College of Maryland</p>
-      <p>Maryland · braden@kindreds.com · <a href="https://linkedin.com/in/kindredbraden" target="_blank">LinkedIn</a> · 240-549-0000</p>
-      <a href="Kindred_Braden_Resume.pdf" target="_blank" class="btn">Download Resume (PDF)</a>
-    </header>
+  <!-- MAIN CONTENT (centered container) -->
+  <main id="top" class="main">
+    <div class="container">
 
-    <!-- About Me Section -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I’m a junior at St. Mary’s College of Maryland pursuing a double major in Business Administration and Economics. 
-        This past summer I interned with a sports operations company and redesigned their reservation check-in process, 
-        cutting errors by 78% and showing me how small operational tweaks can create big financial impact. 
-        I’m also preparing to study abroad in Barcelona next semester.
-      </p>
-      <p>
-        In my free time, I enjoy exploring how AI tools and creators can streamline workflows in business, 
-        and I stay sharp by following daily business news from Bloomberg and The Wall Street Journal.
-      </p>
-    </section>
+      <!-- Header / Hero (centered) -->
+      <header class="hero">
+        <img src="profile.jpg" alt="Headshot — Braden Kindred" class="profile-pic" />
+        <h1 class="name">Braden Kindred</h1>
+        <p class="subtitle">Business Administration &amp; Economics — St. Mary’s College of Maryland</p>
 
-    <!-- Achievements & Interests -->
-    <section id="achievements">
-      <h2>Achievements & Interests</h2>
-      <ul>
-        <li>GPA: 3.81 — Double Major in Business Administration & Economics</li>
-        <li>Risk Analyst, Student Investment Group — contributed to a 35.97% portfolio return</li>
-        <li>NCAA Division III Soccer & Semi-Pro Soccer — balancing academics with athletics</li>
-        <li>Founder of College Pickleball Club</li>
-        <li>Interests: Finance, Entrepreneurship, Sports, AI Tools for Business</li>
-      </ul>
-    </section>
+        <p class="contact">
+          Maryland · <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> ·
+          <a href="https://linkedin.com/in/kindredbraden" target="_blank" rel="noopener">linkedin.com/in/kindredbraden</a> ·
+          240-549-0000
+        </p>
 
-    <!-- Leadership & Activities -->
-    <section id="leadership">
-      <h2>Leadership & Activities</h2>
-      <ul>
-        <li>Risk Analyst — Student Investment Group</li>
-        <li>Founder — Pickleball Club</li>
-        <li>Member — Student-Athlete Advisory Committee (SAAC)</li>
-        <li>Men’s Soccer Team — NCAA Division III Athlete</li>
-      </ul>
-    </section>
+        <a class="cta" href="Kindred_Braden_Resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
+      </header>
 
-    <!-- Footer -->
-    <footer>
-      <p>
-        Maryland · braden@kindreds.com · 
-        <a href="https://linkedin.com/in/kindredbraden" target="_blank">LinkedIn</a> · 
-        240-549-0000
-      </p>
-    </footer>
-  </div>
+      <!-- About -->
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+          I’m a junior at St. Mary’s College studying Business Administration &amp; Economics (GPA 3.81).
+          This past summer I created and completed a Strategic Operations internship with a sports operations company —
+          I redesigned reservation and check-in flows and reduced missed check-ins by 78%. I also serve as a Risk Analyst
+          on a \$700K student-managed portfolio. Next semester I’ll study abroad in Barcelona.
+        </p>
+        <p>
+          In my free time I follow markets (Bloomberg/WSJ) and enjoy exploring practical AI tools that improve workflows.
+          Outside academics I compete in NCAA Division III soccer and played semi-professionally this past summer;
+          I also founded my college Pickleball Club.
+        </p>
+      </section>
+
+      <!-- Achievements -->
+      <section id="achievements" class="section">
+        <h2>Achievements &amp; Interests</h2>
+        <ul>
+          <li>GPA: 3.81 — Double Major in Business Administration &amp; Economics</li>
+          <li>Risk Analyst, Student Investment Group — contributed to a 35.97% portfolio return</li>
+          <li>NCAA D3 Soccer &amp; Semi-Pro Soccer experience</li>
+          <li>Founder — College Pickleball Club</li>
+          <li>Interests: Finance, Entrepreneurship, Sports, Applied AI Tools</li>
+        </ul>
+      </section>
+
+      <!-- Leadership -->
+      <section id="leadership" class="section">
+        <h2>Leadership &amp; Activities</h2>
+        <ul>
+          <li>Risk Analyst — Student Investment Group</li>
+          <li>Founder — Pickleball Club</li>
+          <li>Member — Student-Athlete Advisory Committee (SAAC)</li>
+          <li>Men’s Soccer Team — NCAA Division III Athlete</li>
+        </ul>
+      </section>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <p>
+          Maryland · <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> ·
+          <a href="https://linkedin.com/in/kindredbraden" target="_blank" rel="noopener">linkedin.com/in/kindredbraden</a> ·
+          240-549-0000
+        </p>
+      </footer>
+
+    </div> <!-- .container -->
+  </main>
+
 </body>
 </html>
