@@ -1,92 +1,98 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Braden Kindred — Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Braden Kindred — Portfolio</title>
+<meta name="description" content="Braden Kindred — business student and NCAA athlete working at the intersection of AI, operations, and strategy.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- STICKY NAV (full width, centered links only) -->
-  <nav class="navbar" role="navigation" aria-label="Main navigation">
-    <div class="nav-center">
-      <ul class="nav-links" role="menubar" aria-label="Primary">
-        <li role="none"><a role="menuitem" href="#about">About</a></li>
-        <li role="none"><a role="menuitem" href="#achievements">Achievements</a></li>
-        <li role="none"><a role="menuitem" href="#leadership">Leadership</a></li>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-center">
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#background">Background</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="main">
+  <div class="container">
+
+    <!-- HERO -->
+    <header class="hero">
+      <img class="profile-pic" src="profile.jpg" alt="Braden Kindred">
+      <h1 class="name">Braden Kindred</h1>
+      <p class="subtitle">Working at the intersection of AI, operations, and strategy.</p>
+      <p class="contact">
+        Maryland ·
+        <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> ·
+        <a href="https://linkedin.com/in/kindredbraden">linkedin.com/in/kindredbraden</a> ·
+        240-549-0000
+      </p>
+      <a class="cta" href="Kindred_Braden_Resume.pdf">Download Résumé (PDF)</a>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>I'm a senior at St. Mary's College of Maryland studying Business Administration and Economics, and an NCAA Division III soccer player. I work at the intersection of AI, business operations, and strategy — designing practical AI tools that help small teams run better.</p>
+      <p>This past year I did that work hands-on at an AI-native startup, building a set of tools that supported the company across operations and strategy. I build these systems around a simple idea: let the AI handle the organizing and analysis, and keep people in charge of the calls that actually matter.</p>
+      <p>Before that, I got my footing in markets and analysis as a Risk Analyst for my college's Student Investment Group, where I help manage an $850K portfolio. Outside of work I play NCAA soccer, competed semi-pro this past summer, and founded my college's Pickleball Club.</p>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <h2>Selected Work</h2>
+
+      <div class="work-item">
+        <p class="work-meta">AI &amp; Business Operations · Vessel &amp; Co. · Remote · 2026</p>
+        <h3>A suite of AI operating agents</h3>
+        <p>Designed three AI agents that supported an AI-native startup across its operations and strategy. A COO agent ran the weekly reporting loop — collecting team check-ins, flagging what was missing or vague, and compiling clean summaries for leadership. A Captain agent tracked operational and asset readiness, sweeping for maintenance issues before they became problems. A CSO agent pressure-tested plans against the company's strategy and surfaced tradeoffs.</p>
+        <p>Each agent was deliberately fenced in — it could inform, organize, and recommend, but never act on its own.</p>
+      </div>
+
+      <div class="work-item">
+        <p class="work-meta">Financial Modeling · Vessel &amp; Co. · 2026</p>
+        <h3>Five-year financial model</h3>
+        <p>Built a five-year pro forma and unit-economics model for one of the company's vessels, using AI to structure cost drivers, revenue assumptions, and operating expenses. The analysis became a reference case for shaping the company's broader business model.</p>
+      </div>
+
+      <div class="work-item">
+        <p class="work-meta">Operations · ProsToYou · 2025</p>
+        <h3>Turning around a check-in problem</h3>
+        <p>Noticed an operational gap at an earlier internship, pitched a fix to leadership, and built a project around it. Working in the platform the business already used, I redesigned the check-in process and reservation rules to track attendance more effectively, which cut missed check-ins by 78% in six weeks.</p>
+      </div>
+
+    </section>
+
+    <!-- BACKGROUND -->
+    <section id="background" class="section">
+      <h2>Background</h2>
+      <ul>
+        <li><strong>Education</strong> — B.A., Business Administration &amp; Economics, St. Mary's College of Maryland · GPA 3.81 · Expected May 2027</li>
+        <li><strong>Risk Analyst</strong> — Student Investment Group, helping manage an ~$850K student-run portfolio</li>
+        <li><strong>Athletics</strong> — NCAA Division III soccer; semi-professional experience</li>
+        <li><strong>Founder</strong> — College Pickleball Club</li>
+        <li><strong>Member</strong> — Student-Athlete Advisory Committee (SAAC)</li>
+        <li><strong>Interests</strong> — AI in business, operations and strategy, markets, and sports</li>
       </ul>
-    </div>
-  </nav>
+    </section>
 
-  <!-- MAIN CONTENT -->
-  <main class="main">
-    <div class="container">
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      Maryland ·
+      <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> ·
+      <a href="https://linkedin.com/in/kindredbraden">linkedin.com/in/kindredbraden</a> ·
+      240-549-0000
+    </footer>
 
-      <!-- HERO / HEADER (centered) -->
-      <header class="hero" id="top">
-        <img src="profile.jpg" alt="Braden Kindred headshot" class="profile-pic" />
-        <h1 class="name">Braden Kindred</h1>
-        <p class="subtitle">Business Administration &amp; Economics — St. Mary’s College of Maryland</p>
-
-        <p class="contact">
-          Maryland · <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> ·
-          <a href="https://linkedin.com/in/kindredbraden" target="_blank" rel="noopener">linkedin.com/in/kindredbraden</a> ·
-          240-549-0000
-        </p>
-
-        <a class="cta" href="Kindred_Braden_Resume.pdf" target="_blank" rel="noopener">Download Resume (PDF)</a>
-      </header>
-
-      <!-- ABOUT -->
-      <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>
-          I’m a junior at St. Mary’s College studying Business Administration &amp; Economics (GPA 3.81).
-          I have a deep interest in business strategy and marketing and will be studying abroad in Barcelona this spring to broaden my global perspective. 
-          I’m especially curious about emerging technologies like quantum computing and AI, and how they open new possibilities for solving complex business problems and redefining industries.
-        </p>
-        <p>
-          I follow Bloomberg and the Wall Street Journal each day to stay current on markets and business trends. 
-          As a Risk Analyst for my college’s Student Investment Group, I help manage an $850,000 portfolio and gain hands-on experience in investment strategy.
-          Sports are an important part of my life. I play NCAA Division III soccer, competed semi pro this past summer, and started my college Pickleball Club.
-        </p>
-      </section>
-
-      <!-- ACHIEVEMENTS -->
-      <section id="achievements" class="section">
-        <h2>Achievements &amp; Interests</h2>
-        <ul>
-          <li>GPA 3.81 — Double Major, Business Administration &amp; Economics</li>
-          <li>Risk Analyst, Student Investment Group — contributed to a $850K portfolio return of 35.97%</li>
-          <li>NCAA Division III and semi-professional soccer experience</li>
-          <li>Competitive pickleball player and founder of my college Pickleball Club</li>
-          <li>Interests: finance, entrepreneurship, sports, and exploring practical applications of quantum computing and AI</li>
-        </ul>
-      </section>
-
-      <!-- LEADERSHIP -->
-      <section id="leadership" class="section">
-        <h2>Leadership &amp; Activities</h2>
-        <ul>
-          <li>Risk Analyst — Student Investment Group</li>
-          <li>Founder — Pickleball Club</li>
-          <li>Member — Student-Athlete Advisory Committee (SAAC)</li>
-          <li>Men’s Soccer Team — NCAA Division III Athlete</li>
-        </ul>
-      </section>
-
-      <!-- FOOTER -->
-      <footer class="site-footer">
-        <p>
-          Maryland · <a href="mailto:braden@kindreds.com">braden@kindreds.com</a> ·
-          <a href="https://linkedin.com/in/kindredbraden" target="_blank" rel="noopener">linkedin.com/in/kindredbraden</a> ·
-          240-549-0000
-        </p>
-      </footer>
-
-    </div> <!-- .container -->
-  </main>
+  </div>
+</div>
 
 </body>
 </html>
